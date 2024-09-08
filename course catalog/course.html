@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Catalog</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .course-card {
+      transition: transform 0.3s;
+    }
+    .course-card:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-3">
+    <h1>Course Catalog</h1>
+    <p>Explore our range of courses designed to help you grow.</p>
+  </header>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Course 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <img src="images/webdeveloper.jpeg" class="card-img-top" alt="Course Image">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Learn how to build modern web applications with HTML, CSS, and JavaScript.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <img src="images/datascience.jpeg" class="card-img-top" alt="Course Image">
+          <div class="card-body">
+            <h5 class="card-title">Data Science</h5>
+            <p class="card-text">Dive into data analysis, machine learning, and data visualization techniques.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card course-card">
+          <img src="images/digitalmarketing.webp" class="card-img-top" alt="Course Image">
+          <div class="card-body">
+            <h5 class="card-title">Digital Marketing</h5>
+            <p class="card-text">Master the art of digital marketing, SEO, content creation, and social media strategies.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more courses here -->
+    </div>
+  </div>
+
+  <footer class="bg-light text-center py-3 mt-5">
+    <p>&copy; 2024 Course Catalog. All rights reserved.</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
